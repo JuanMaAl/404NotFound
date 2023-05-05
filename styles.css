@@ -9,11 +9,10 @@ html {
         background-color: #FFFFFF;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2.5fr 2.5fr 1.5fr 1.5fr 1fr;
         height: 100%;
         width:100%;
-        max-width: 1440;
-        max-height: 1080;
+        max-width: 600;
         font-size: 1em;
     
     }
@@ -28,20 +27,20 @@ html {
         line-height: 1.56em;
         letter-spacing: -0.08em;
         color: #333333;
-        margin-left:3.21em;
-        margin-top: 0em;
+        margin-left:0.6em;
+        margin-top: -1em;
     }
     
     .aside{
         grid-row: 2/3;
         grid-column: 1/2;
-        margin-left: 3.1em;
-        margin-top: 9em;
+        margin-left: 2em;
+        margin-top: 1.5em;
     }
     
     #scarecrow{
-        width: 33.7em;
-        height: 27.96em;
+        width: 17.93em;
+        height: 14.88em;
     }
     
     .main{
@@ -52,9 +51,10 @@ html {
     .main-one{
         grid-row: 3/4;
         grid-column: 1/2;
-        margin-top: 2.38em;
+        margin-top: 1em;
+        margin-left: 0.4em;
         font-family: 'Space Mono';
-        font-size: 4em;
+        font-size: 3em;
         font-weight: 700;
         letter-spacing: -0.035em;
         
@@ -64,8 +64,9 @@ html {
         grid-row: 4/5;
         grid-column: 1/2;
         font-family: 'Space Mono';
-        font-size: 1.5em;
-        margin-top: -1.59em;
+        font-size: 1.13em;
+        margin-top: -1em;
+        margin-left: 1.2em;
         font-weight: 400;
         letter-spacing: -0.035em;
     }
@@ -75,8 +76,8 @@ html {
         grid-column: 1/2;
         font-family: 'Space Mono';
         font-size: 0.88em;
-        margin-top: 4.5em;
-        margin-left: 0.5em;
+        margin-top: 3em;
+        margin-left: 1.5em;
         font-weight: 700;
         letter-spacing: -0.035em;
     }
@@ -99,13 +100,11 @@ html {
         font-weight: 500;
         color: #BDBDBD;
         margin-top: 2em;
-        margin-left: 40em;
+        margin-left: 2.4em;
     }
     
     
 }
-
-
 
 @media (min-width: 601px) {
     .body {
