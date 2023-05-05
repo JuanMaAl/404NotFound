@@ -10,6 +10,10 @@ html {
     grid-template-columns: 4.7fr 5.3fr;
     grid-template-rows: 1fr 3fr 3fr 2fr 1fr;
     height: 100%;
+    width:100%;
+    max-width: 1440;
+    max-height: 1080;
+    font-size:16px;
 
 }
 
@@ -23,14 +27,15 @@ html {
     line-height: 25px;
     letter-spacing: -0.08em;
     color: #333333;
-    margin-left: 77px;
-    margin-top: 40px;
+    margin-left:3.21em;
+    margin-top: 1.83em;
 }
 
 .aside{
-    background-color: pink;
     grid-row: 2/5;
     grid-column: 1/2;
+    margin-left: 3.1em;
+    margin-top: 9em;
 }
 
 .main{
@@ -46,7 +51,7 @@ html {
 }
 
 #scarecrow{
-    width: 539.22px;
-    height: 447.43px;
+    width: 33.7em;
+    height: 27.96em;
 }
 
