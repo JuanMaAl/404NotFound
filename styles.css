@@ -55,9 +55,13 @@ html {
 }
 
 .main-two{
-    background-color: green;
     grid-row: 3/4;
     grid-column: 2/3;
+    font-family: 'Space Mono';
+    font-size: 1.5em;
+    margin-top: -1.59em;
+    font-weight: 400;
+    letter-spacing: -0.035em;
 }
 
 .main-three{
